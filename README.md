@@ -4,9 +4,9 @@ A project created with an aim to emulate and test exfiltration of data over diff
 ![Alt text](networktool.png)
 
 Currently, this project can help generate HTTP/HTTPS traffic (both GET and POST) using the below metioned progamming/scripting languages:
-- CNet: Developed in CLang to generate network traffic using the well know WIN32 API's (WININET & WINHTTP) and raw socket programming.
-- HashNet: A C# binary to generate network traffic using .NET class like HttpClient, WebRequest and raw sockets.
-- PowerNet: PowerShell scripts to generate network traffic using socket programming.
+- CNet/WebClient: Developed in CLang to generate network traffic using the well know WIN32 API's (WININET & WINHTTP) and raw socket programming.
+- HashNet/WebClient: A C# binary to generate network traffic using .NET class like HttpClient, WebRequest and raw sockets.
+- PowerNet/WebClient: PowerShell scripts to generate network traffic using socket programming.
 
 ### Usage:
 ---
