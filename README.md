@@ -1,5 +1,5 @@
 # NetLlix
-A project created with an aim to emulate and test exfiltration of data over different network protocols. The emulation is performed w/o the usage of native API's. This will help blue teams write correlation rules to detect any type of C2 communication or data exfiltration.
+A project created with an aim to simulate active C2-based communication and test exfiltration of data over different network protocols. The simulation is performed without the usage of native API's. This will enable blue teams to write correlation rules to detect any type of C2 communication or data exfiltration over the network - to help identify C2-based attacks.
 
 ![Alt text](networktool.png)
 
@@ -14,7 +14,7 @@ Download the latest ZIP from realease.
 
 #### Running the server:
 
-- With SSl: `python3 HTTP-S-EXFIL.py ssl`
+- With SSL: `python3 HTTP-S-EXFIL.py ssl`
 
 - Without SSL: `python3 HTTP-S-EXFIL.py`
 
